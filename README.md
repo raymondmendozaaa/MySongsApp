@@ -1,70 +1,16 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Raymond Mendoza
+## Project Overview
+For my third project, I have decided to make an app for those that are big on music! I also decided to add in a Spotify API to challenge myself a little bit more since the router was taken off the requirements (I also couldn't figure out how to add in a router no matter how hard I tried and looked for solutions).
+## Details/Functionality
+I have created an application where you can save your liked/favorite albums. In this application, you have a simple navbar, which doesn't do anything (I couldn't figure out how to do a router). You then have your main section where you are able to type in a album and add it into the list of albums (in my head, this was sort of like adding a song to a playlist). With these albums in this list you can delete them from the list with a simple click of a button. You can also reorder the list with a simple click of buttons. Also there is a function where you can "Love" a song and add it into a "Favorite Albums" section, or if not, there is always the "All" and the "Liked Albums" sections as well. Last but not least, there is a search bar at the bottom of the application where you can type in a artist of your choice, and the application will pull all of the released albums of that artist to make any searches easier, just in case you can't think of an album name.
+## Technologies Used
+* HTML
+* CSS
+* JavaScript
+* React.js
+## Future Improvements
+* I would like to add a way to be able to add the albums listed from the spotify API into the list.
+* I would like to add in a way to actually be able to play music from the album that you click on.
+* I would like to clean up the look of the page and make it more aesthetically pleasing to the eye.
+* I would like to add in a router, as I did not figure out how to do that in this project.
+* I would like to take it one step further, and also show songs, and not only albums.
