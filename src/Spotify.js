@@ -78,7 +78,7 @@ function Spotify() {
         </InputGroup>
       </Container>
       <Container>
-        <Row className="mx-2 row row-cols-3">
+        <Row className="mx-2 row row-cols-4">
           {albums.map( (album, i) => {
             console.log(album);
             return (
