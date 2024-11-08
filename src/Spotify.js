@@ -4,7 +4,6 @@ import { Container, InputGroup, FormControl, Button, Row, Card} from 'react-boot
 import { useState, useEffect} from 'react';
 
 const CLIENT_ID = "c782fed11aba49719ba7c7d8d3f1d54a";
-const CLIENT_SECRET = "d368009fcc94481a9ec7cff2563ca8db";
 
 function Spotify() {
   const [searchInput, setSearchInput] = useState("");
